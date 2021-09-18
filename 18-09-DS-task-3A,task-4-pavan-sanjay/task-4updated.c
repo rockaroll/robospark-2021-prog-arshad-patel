@@ -29,7 +29,7 @@ int isEmptyStack(){
 
 // Function to push element to stack
 void push(int data){
-    if(isFullStack(s)){
+    if(isFullStack()){
         printf("[!!] Overflow \n");
         exit(0);
     }else{
@@ -40,7 +40,7 @@ void push(int data){
 
 // Function to pop element from stack
 int pop(){
-    if(isEmptyStack(s)){
+    if(isEmptyStack()){
         printf("[!!] Underflow \n");
         exit(1);
     }else{
@@ -53,7 +53,7 @@ int pop(){
 
 // Function to return top element
 int topElement(){
-    if(isEmptyStack){
+    if(isEmptyStack()){
         printf("[!!] Underflow \n");
         exit(2);
     }
@@ -62,7 +62,7 @@ int topElement(){
 
 // Function to print stack
 void printStack(){
-    if(!isEmptyStack(s)){
+    if(!isEmptyStack()){
         for(int i=(s.top); i>=0; i--){
             printf("\n %d", (s.st[i]));
         }

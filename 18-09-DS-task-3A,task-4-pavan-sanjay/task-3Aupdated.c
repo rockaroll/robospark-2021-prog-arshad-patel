@@ -39,7 +39,7 @@ int isEmpty(){
 
 // Push Element
 void push(char data){
-    if(isFull(s)){
+    if(isFull()){
         printf("[!!] Stack Overflow \n");
         exit(0);
     }else{
@@ -50,7 +50,7 @@ void push(char data){
 
 // Pop and return top element
 int pop(){
-    if(isEmpty(s)){
+    if(isEmpty()){
         printf("no\n");
         exit(1);
     }else{
@@ -63,7 +63,7 @@ int pop(){
 
 // Return top element
 int topElement(){
-    if(isEmpty(s)){
+    if(isEmpty()){
         printf("no\n");
         exit(2);
     }
@@ -72,7 +72,7 @@ int topElement(){
 
 // Function to print stack
 void printStack(){
-    if(!isEmpty(s)){
+    if(!isEmpty()){
         for(int i=(s.top); i>=0; i--){
             printf("%d \n", (s.st[i]));
         }

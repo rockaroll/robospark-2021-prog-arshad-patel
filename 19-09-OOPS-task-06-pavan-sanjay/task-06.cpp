@@ -29,8 +29,10 @@ class PersonalData{
        getline(cin,address);
        cout<<"enter mobile number:";
        cin>>mobile_no;
-       cout<<"enter date of birth in (dd-mm-yy) of birth:";
-       cin>>dd>>mm>>yy;
+       cout<<"enter date of birth in (dd-mm-yy) of birth:";//enter value of dd,mm and yy seperately
+       cin>>dd>>mm>>yy;/*for example : enter date of birth in (dd-mm-yy) of birth:23
+                        *05
+                        *2002*/
    }
   
    

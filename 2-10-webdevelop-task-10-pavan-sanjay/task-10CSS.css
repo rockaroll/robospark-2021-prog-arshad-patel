@@ -1,0 +1,71 @@
+
+/*this consists of the wallpaper from the internet in a different shade hence we used linear gradient here*/
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,0.73)) , url(https://wallpaperaccess.com/full/187161.jpg) ;
+   
+  }
+  
+
+  /*refers to the class attribute:sect1,this is the first section which consists of the parameters of login button*/
+  .sect1{
+   
+      height: 20%;
+      width: 30%;
+      background-color: darkcyan;
+      display:grid;
+      place-content: center;
+      margin-top: 120px;
+      margin-left: 35%;
+      border-top-right-radius: 20%;
+      border-top-left-radius: 20%;
+     
+  }
+  /*this contains the parameters of the main form which has the three buttons.its division is called main*/
+  .main{
+    height: 140%;
+    width: 30%;
+    background-color: white;
+    display:grid;
+    place-content: center;
+    margin-top: 2px;
+    margin-left: 35%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+  }
+  /*this is the username textbox tag consists of the parameters for the textbox username*/
+  #username{
+    display:grid;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: blue;
+    border-bottom-style: groove;
+    margin-top: 30%;
+  }
+   /*this is the password textbox tag consists of the parameters for the textbox password*/
+  #password{
+    display:grid;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: blue;
+    border-bottom-style: groove;
+  }
+   /*this was used for the forget password method.it was a hyperlink hence it was underlined.To remove undeline i has use the command below*/
+  a{
+    text-decoration: none;
+  }
+ /*these are the parametrs for the submit button it has bg colour,display,centering and so on*/
+  #submit{
+    background-color: rgb(34, 34, 146);
+    display: grid;
+    place-content: center;
+    margin-top: 20%;
+    margin-right: 5%;
+    width:90%;
+    margin-bottom: 40%;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
